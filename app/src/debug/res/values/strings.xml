@@ -1,0 +1,61 @@
+<resources>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="app_name">Absensi d-HRSystem</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="email_or_phone_taken_error_message">Email or phone number has already been registered</string>
+    <string name="email_taken_error_message">Email ini sudah terdaftar</string>
+    <string name="phone_number_taken_error_message">No. HP ini sudah terdaftar</string>
+    <string name="minimum_characters_error_messages">Kata sandi minimal 8 karakter</string>
+    <string name="must_be_alphanumerics_error_messages">Harus memuat huruf atau angka</string>
+    <string name="empty_name_pop_up">Mohon masukkan nama Anda</string>
+    <string name="empty_email_pop_up">Mohon masukkan email Anda</string>
+    <string name="empty_phone_pop_up">Mohon masukkan No. HP  Anda</string>
+    <string name="empty_password_pop_up">Mohon masukkan kata sandi Anda</string>
+    <string name="phone_format_pop_up">Maaf. No. HP minimal 8 angka dan dalam format +6281xx</string>
+    <string name="email_format_pop_up">Maaf. Email harus dalam format : nama@email</string>
+
+    <string name="bad_internet_connection_pop_up_title">Tidak Ada Koneksi Internet</string>
+    <string name="bad_internet_connection_pop_up">Mohon periksa kembali koneksi internet Anda dan coba lagi.</string>
+    <string name="server_error_pop_up_title">Tidak Berhasil Diproses</string>
+    <string name="server_error_pop_up">Saat ini permintaan Anda tidak dapat diproses. Mohon coba beberapa saat lagi.</string>
+    <string name="wrong_password_pop_up">Kata sandi yang Anda masukkan tidak benar. Coba lagi?</string>
+    <string name="wrong_password_pop_up_title">Tidak Berhasil Masuk</string>
+    <string name="wrong_email_pop_up">Maaf, email ini belum terdaftar. Coba email lain?</string>
+    <string name="wrong_email_pop_up_title">Email Tidak Ditemukan</string>
+
+    <string name="in_progress_empty_state">Once you order a service, you can track your order status here.</string>
+    <string name="completed_empty_state">Once you completed a transaction, it will appear here.</string>
+
+    <string name="change_phone_number_success_title">Success!</string>
+    <string name="change_phone_number_success">Your phone number has been changed successfully.</string>
+    <string name="profile_updated">Your profile has been successfully updated</string>
+
+    <string name="user_changed_nothing">Nothing was changed in the profile</string>
+    <string name="user_havent_enter_their_old_password">Please enter your old password</string>
+    <string name="user_havent_enter_their_new_password">Please enter your new password</string>
+    <string name="user_havent_enter_their_new_password_confirmation">Please confirm your new password</string>
+
+    <string name="users_new_password_confirmation_is_wrong">New password confirmation doesn\'t match</string>
+    <string name="users_new_password_confirmation_is_wrong_title">Change Password Unsuccessful</string>
+
+    <string name="users_new_password_is_not_alphanumerics">New password must be alphanumerics</string>
+    <string name="users_new_password_format_are_wrong">New password must be at least 8 characters.</string>
+    <string name="user_enter_the_wrong_password">Your current password is wrong</string>
+    <string name="user_enter_the_wrong_password_title">Wrong Password</string>
+    <string name="users_password_has_been_changed_succesfully">Your password has been changed successfully.</string>
+
+
+    <string name="title_activity_item">ItemActivity</string>
+    <string name="title_activity_checkout">CheckoutActivity</string>
+    <string name="empty_address_pop_up">Mohon masukan alamat pengiriman anda</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

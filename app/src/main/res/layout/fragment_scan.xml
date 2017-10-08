@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/all"
+    android:background="@android:color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/qr"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/imgscan"/>
+    </LinearLayout>
+    <Button
+        android:background="@drawable/border_round_blue"
+        android:id="@+id/scan"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:textSize="24dp"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/white"
+        android:text="SCAN QR CODE"
+        android:layout_height="0dp" />
+    <com.google.android.gms.ads.AdView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/adView"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/isi"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
